@@ -1,0 +1,67 @@
+/* --- General Page Styles --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #1e1e1e;
+}
+
+/* --- Streamlit Header --- */
+h1, h2, h3 {
+    font-family: 'Segoe UI', sans-serif;
+    color: #0d3b66;
+}
+
+/* --- Sidebar --- */
+[data-testid="stSidebar"] {
+    background-color: #f0f4f8;
+    color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+[data-testid="stSidebar"] h2 {
+    color: #0d3b66;
+}
+
+/* --- Sidebar Controls --- */
+.css-1d391kg, .css-1v3fvcr, .stSlider {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* --- Buttons --- */
+.stButton button {
+    background-color: #0d3b66;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.stButton button:hover {
+    background-color: #144f86;
+}
+
+/* --- Metrics / Success Messages --- */
+.stSuccess {
+    background-color: #d4edda !important;
+    color: #155724 !important;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+/* --- Plots --- */
+.plotly-graph-div {
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 0.5rem;
+}
+
+/* --- Footer (optional) --- */
+footer {
+    display: none; /* Remove Streamlit footer */
+}
+
